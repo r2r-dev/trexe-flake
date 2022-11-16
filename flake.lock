@@ -1,0 +1,96 @@
+{
+  "nodes": {
+    "buildbox-common": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1667224736,
+        "narHash": "sha256-65UJZowqb4HfjD2GUXwDC2n58rYEl7gTie7q1eqO58c=",
+        "ref": "master",
+        "rev": "f41c9fabaeb0f34a61f19cd217b0dcea4caa0893",
+        "revCount": 856,
+        "type": "git",
+        "url": "https://gitlab.com/BuildGrid/buildbox/buildbox-common"
+      },
+      "original": {
+        "ref": "master",
+        "rev": "f41c9fabaeb0f34a61f19cd217b0dcea4caa0893",
+        "type": "git",
+        "url": "https://gitlab.com/BuildGrid/buildbox/buildbox-common"
+      }
+    },
+    "nixpgks": {
+      "locked": {
+        "lastModified": 1668505710,
+        "narHash": "sha256-DulcfsGjpSXL9Ma0iQIsb3HRbARCDcA+CNH67pPyMQ0=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "85d6b3990def7eef45f4502a82496de02a02b6e8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1668595402,
+        "narHash": "sha256-12zewsdsS3hFyWSb9x8a1pnbYOcsohvWoB6RYkMvlWE=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "c03141948959417b580a9cbd57983af910d6727a",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "buildbox-common": "buildbox-common",
+        "nixpgks": "nixpgks",
+        "nixpkgs": "nixpkgs",
+        "trexe": "trexe",
+        "utils": "utils"
+      }
+    },
+    "trexe": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1666203717,
+        "narHash": "sha256-BBKBWO/12f2qPH5lPxq1zZS62772hp713l5/r/cj9G4=",
+        "ref": "main",
+        "rev": "56047590de076f9d0039fcd7fc12bbfa4ce99a23",
+        "revCount": 121,
+        "type": "git",
+        "url": "https://gitlab.com/BuildGrid/trexe"
+      },
+      "original": {
+        "ref": "main",
+        "rev": "56047590de076f9d0039fcd7fc12bbfa4ce99a23",
+        "type": "git",
+        "url": "https://gitlab.com/BuildGrid/trexe"
+      }
+    },
+    "utils": {
+      "locked": {
+        "lastModified": 1667395993,
+        "narHash": "sha256-nuEHfE/LcWyuSWnS8t12N1wc105Qtau+/OdUAjtQ0rA=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "5aed5285a952e0b949eb3ba02c12fa4fcfef535f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
